@@ -1,0 +1,59 @@
+body{
+    font-family:'Times New Roman';
+    background:url(../Images/dark.jpg);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px black;
+    padding: 50px;
+    text-align: center;
+    max-width: 500px;
+}
+h2{
+    color: crimson;
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    color: black;
+    font-weight: bold;
+}
+.msg{
+    display: none;
+    color: brown;
+    margin-top: 40px;
+}
+input[type] {
+    width: 160px;
+    padding: 17px;
+    margin-bottom:18px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+a{
+    background-color: cadetblue;
+    color: black;
+    padding: 10px 10px;
+    margin-top:5px;
+    border: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+a:hover{
+    background-color: coral;
+}
+

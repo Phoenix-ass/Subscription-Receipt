@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Page</title>
+    <link rel="stylesheet" href="./Style/style.css">
+   </head>
+   <style>
+    
+    body{
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', sans-serif;
+        background: url(./Images/tree.jpg);
+        padding-bottom: 50px;
+    }
+    .main-content h1{
+        font-size: 35px;
+        margin-left: 380px;
+        font-weight: bold;
+        color: aliceblue;
+        padding: 15px;
+    }
+    .main-content h2{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-left: 550px;
+        padding: 15px;
+        color: aliceblue;
+    }
+    .main-content .input-box{
+        margin-top: 20px;
+    }
+    .main-content .input-box span{
+        display: block;
+        color:black;
+        padding-bottom: 10px;
+        margin-left: 500px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .main-content .input-box input{
+        width: 10%;
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.1);
+        color: #444;
+        margin-left: 550px;
+        background-color: azure;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 60%;
+        color: #333;
+        margin-left: 300px;
+        padding-bottom: 10px;
+    }
+
+    td, th {
+        border: 2px solid white;
+        text-align: left;
+        padding: 15px;
+        font-size: 19px;
+    }
+    .btn{
+        font-size: 15px;
+        font-family: "Times New Roman", sans-serif;
+        margin-left: 580px;
+        width: 10%;
+        padding: 10px;
+        font-weight: 200;
+        border-radius: 10px;
+        border: 2px solid rgba(0,0,0,0.1);
+        background-color: aliceblue;
+    }
+    footer {
+        text-align: center;
+        font-weight:bold ;
+        padding-top: 20px;
+    }
+   </style>
+   <body>
+    <div class="main-content">
+        <h1>Gowthamraj Networks India Private Limited.</h1>
+        <h2>Payment Receipt</h2>
+        <div class="input-box">
+            <span>Enter Acknowledgment Number:</span>
+            <input type="text" maxlength="20" class="number-input">
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td>Order ID</td>
+            <td>ORD1234GN</td>
+        </tr>
+        <tr>
+            <td>Course Provider</td>
+            <td>Gowthamraj Networks</td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>Kavitha.M</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>strelitziashakay99@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Subscription Validity</td>
+            <td>1 Year</td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Course Enrolled</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subscription Type</td>
+            <td>Basic / Premium</td>
+        </tr>
+        <tr>
+            <td>Course Duration Date</td>
+            <td>Aug'24 - Jun'25</td>
+        </tr>
+        <tr>
+            <td>Payment Status</td>
+            <td>Payment Received Successfully</td>
+        </tr>
+        
+    </table>
+    <br> <br>
+    <button type="submit" class="btn" onclick="myalert()">Print As</button>
+    
+
+    <footer>
+        <p>Copyright © 2024 || GOWTHAMRAJ NETWORK ALL RIGHTS RESERVED </p>
+    </footer>
+
+    <script>
+        function myalert() {
+            alert("Thanks For Subscribing. Printed Successfully.")
+        }
+    </script>
+
+   </body>
